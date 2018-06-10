@@ -3,7 +3,7 @@
 """
 Created on Sun Jun 10 09:23:00 2018
 
-@author: ruicheng
+@author: little-frog
 """
 
 import requests
@@ -12,7 +12,7 @@ import json
 import time
 
 base_url = 'http://watch.xbiao.com/rolex/10000129/p%d.html'
-path = '/Users/ruicheng/Documents/上海师范研究生/python相关/爬虫/腕表之家爬虫/劳力士爬虫/劳力士宇宙计型迪通拿价格.txt'
+path = '劳力士宇宙计型迪通拿价格.txt'
 
 def get_page(page):
     url = base_url%page
